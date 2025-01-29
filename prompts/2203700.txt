@@ -49,13 +49,13 @@ Extrahiere zusätzlich folgende Variablen aus dem Text und füge diese mit den E
 
 • Kaufdatum: Datum, an dem das Fahrzeug gekauft wurde. Suche nach Formaten wie „am 12.05.2015 gekauft“ oder „Kaufdatum: 12.05.2015.
 
+• Automarke: Extrahiere gezielt den Hersteller des Fahrzeugs. Suche nach bekannten Automarken wie: „Volkswagen“, „Audi“, „BMW“, „Mercedes-Benz“, „Porsche“, „Ford“, „Opel“, „Skoda“, „Seat“, „Toyota“, „Hyundai“ usw. Falls im Text nur das Modell erwähnt wird (z. B. „Golf“, „A4“, „C-Klasse“), ermittle die zugehörige Marke: „VW Golf“ → Automarke = „Volkswagen“ oder „Audi A6“ → Automarke = „Audi“ oder „Mercedes C 220 CDI“ → Automarke = „Mercedes-Benz“. Falls mehrere Fahrzeuge im Text genannt werden, wähle die Marke des streitgegenständlichen Fahrzeugs.
+
 • Kaufpreis: Preis des Fahrzeugs inklusive oder exklusive Nebenkosten in Euro.
 
 • Zulassungskosten: Kosten für die Zulassung des Fahrzeugs in Euro.
 
 • Fahrzeugmodell: Marke und Typ des Fahrzeugs.
-
-• FIN: Fahrzeug-Identifikationsnummer (anonymisiert).
 
 • Erstzulassung: Jahr der Erstzulassung des Fahrzeugs.
 
@@ -65,11 +65,11 @@ Extrahiere zusätzlich folgende Variablen aus dem Text und füge diese mit den E
 
 • Geschätzte Gesamtlaufleistung: Erwartete Gesamtlaufleistung des Fahrzeugs in km.
 
-• Motortyp: Motorbeschreibung (z. B. Typ EA189).
+• Motortyp: Motorbeschreibung (z. B. Typ EA189). Falls der Motortyp nicht direkt angegeben ist, überprüfe indirekte Hinweise, wie zum Beispiel „Das Fahrzeug verfügt über einen 2.0 TDI-Motor“ → Motortyp = „TDI“.
 
-• Hubraum: Motorgröße in Litern.
+• Hubraum: Motorgröße in Litern. Falls nicht direkt angegeben suche nach cm3.
 
-• Leistung: Motorleistung in PS.
+• Leistung: Motorleistung in PS oder kw.
 
 • Zulassungsklasse: Schadstoffklasse des Fahrzeugs.
 
@@ -93,13 +93,13 @@ Gebe die Ergebnisse in einer JSON-Datei mit folgender Struktur zurück:
 
     "Kaufdatum": "Beispielwert",  
 
+    "Automarke": "Beispielwert",
+
     "Kaufpreis": "Beispielwert",  
 
     "Zulassungskosten": "Beispielwert",  
 
-    "Fahrzeugmodell": "Beispielwert",  
-
-    "FIN": "Beispielwert",  
+    "Fahrzeugmodell": "Beispielwert",   
 
     "Erstzulassung": "Beispielwert",  
 
