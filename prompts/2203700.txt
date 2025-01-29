@@ -47,7 +47,7 @@ Unterscheide, ob es sich um einen Entscheid eines Oberlandesgerichts (OLG) oder 
 
 Extrahiere zusätzlich folgende Variablen aus dem Text und füge diese mit den Ergebnissen zu einer JSON-Datei hinzu:
 
-• Kaufdatum: Datum, an dem das Fahrzeug gekauft wurde. Suche nach Formaten wie „am 12.05.2015 gekauft“ oder „Kaufdatum: 12.05.2015.
+• Kaufdatum: Datum, an dem das Fahrzeug gekauft wurde. Suche auch nach Formaten wie „am 12.05.2015 gekauft“ oder „Kaufdatum: 12.05.2015.
 
 • Automarke: Extrahiere gezielt den Hersteller des Fahrzeugs. Suche nach bekannten Automarken wie: „Volkswagen“, „Audi“, „BMW“, „Mercedes-Benz“, „Porsche“, „Ford“, „Opel“, „Skoda“, „Seat“, „Toyota“, „Hyundai“ usw. Falls im Text nur das Modell erwähnt wird (z. B. „Golf“, „A4“, „C-Klasse“), ermittle die zugehörige Marke: „VW Golf“ → Automarke = „Volkswagen“ oder „Audi A6“ → Automarke = „Audi“ oder „Mercedes C 220 CDI“ → Automarke = „Mercedes-Benz“. Falls mehrere Fahrzeuge im Text genannt werden, wähle die Marke des streitgegenständlichen Fahrzeugs.
 
@@ -69,7 +69,7 @@ Extrahiere zusätzlich folgende Variablen aus dem Text und füge diese mit den E
 
 • Hubraum: Motorgröße in Litern. Falls nicht direkt angegeben suche nach cm3.
 
-• Leistung: Motorleistung in PS oder kw.
+• Leistung: Motorleistung in PS oder kw.			
 
 • Zulassungsklasse: Schadstoffklasse des Fahrzeugs.
 
