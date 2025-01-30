@@ -41,108 +41,43 @@ OLG Hamm, Urteil vom 12.07.2021 - 22 U 140/20
 			
 			
 			Permalink: https://openjur.de/u/2452547.html (https://oj.is/2452547)
-Lies den Text in der Spalte Text und analysiere folgende Aspekte:
+Lies den Text in der Spalte Text und analysiere folgende Aspekte: 1. **Gerichtstyp**:
+Unterscheide, ob es sich um einen Entscheid eines Oberlandesgerichts (OLG) oder
+eines Landgerichts (LG) handelt. Dies sollte im Text bei der Urteilsangabe erwähnt
+sein (z. B. OLG, LG). Hier sollen nur die Begriffe OLG und LG extrahiert werden, der
+Name der Stadt wird nicht benötigt. 2. **Geldbetrag oder Abweisung**: Überprüfe in
+der Spalte Text, ob im Abschnitt Tenor ein Geldbetrag genannt wird, den der Kläger
+als Schadensersatz erhält, oder ob die Klage abgewiesen wurde. Dies steht zu
+Beginn des Abschnitts Tenor und wird vor dem Abschnitt Gründe festgelegt. Der
+Betrag wird in der Regel in Euro ohne Zinsen angegeben (z. B. 25.900 EUR) und
+steht zu Beginn des Abschnitts Tenor. Gebe mir nur den Betrag in Euro aus (z.B.
+23542,23 EUR). Falls kein Betrag vorhanden ist und die Klage abgewiesen wurde
+(hierbei wird im Text vermittelt, dass die Klage des 'Klägers/-in' oder der 'Klagepartei'
+abgelehnt wurde. Auch kann im Text stehen, dass die Berufung der Klagepartei
+abgewiesen oder zurückgewiesen wurde.), soll dies als Klage abgewiesen angezeigt
+werden. Achte darauf, dass der Streitwert nicht extrahiert wird.
+Sollte jedoch in dem Abschnitt Tenor nichts zu die Klage des Klägers bzw. der
+Klägerin wird abgewiesen oder der Kläger bzw. die Klägerin erhält Anspruch auf
+Schadensersatz stehen, sondern es wird ein anderes Verfahren betrachtet bzw. ein
+Ablehnungsgesuch der oder des Beklagten wird verworfen, es wird eine
+Streitwertfestsetzung betrachtet, es wird eine Gerichtsstandbestimmung erwähnt
+oder abgelehnt oder eine Entscheidung des Senats thematisiert, dann gebe dies als
+Sonstige aus. Achte dabei vor allem darauf, ob im Text Streitwertfestsetzung
+(einschließlich dessen Ablehnung), Ablehnungsgesuch oder Entscheid des Senats
+thematisiert und ausgeführt wird. Dies sind Indizien für die Kategorie 'Sonstige'.
+Handelt es sich um die Kategorie 'Sonstige', dann gib mit an, woran du dies
+festgemacht hast.
+3. **Kaufdatum**: Suche in dem Teil zwischen Tenor und Permalink, wann der Kauf des PKW stattgefunden hat. Ein Datum mit TT.MM.JJJJ , dem Monat ausgeschrieben.JJJJ oder nur das Jahr könnten als dieses Datum in dem Abschnitt Gründe eingetragen sein. Wenn dem nicht so ist, trage NA ein.
+4.**Kaufpreis**: Suche in dem Teil zwischen Tenor und Permalink, zu welchem Preis der Kauf des PKW stattgefunden hat. Suche dafür nach einem Wert, z.B. 16.000,00€. Dieser kann als gebraucht oder neu bezeichnet werden.
+5. **Marke**: Suche im Abschnitt zwischen "Tenor" und dem letzten Verweis (meistens ein Permalink) nach Automarken. Dies können sowohl explizit genannte Marken als auch beschreibende Angaben zu Marken sein. Berücksichtige dabei den Kontext, um Fehlinterpretationen zu vermeiden. Ein Beispiel könnte (VW, Volkswagen, Audi) oder andere sein.
+6. **Modell**: Suche im Abschnitt zwischen "Tenor" und dem letzten Verweis (meistens ein Permalink) nach dem speziellen Modell der Automarke. Dies können sowohl explizit genannte Modelle (Audi Q3 2.0 TDI quattro) als auch beschreibende Angaben zu Marken sein. Berücksichtige dabei den Kontext, um Fehlinterpretationen zu vermeiden.
+7. **Motor**: Suche im Abschnitt zwischen "Tenor" und dem letzten Verweis (meistens ein Permalink) nach dem speziellen Motor des PKW. Dies können sowohl explizit genannte Motorbeschreibung (z. B. Typ EA189) als auch beschreibende Angaben zum Motor sein. Berücksichtige dabei den Kontext, um Fehlinterpretationen zu vermeiden.
+8. **Hubraum**: Der Hubraum eines Fahrzeugs bezeichnet das Gesamtvolumen aller Zylinder des Motors, das während eines vollständigen Arbeitszyklus durch den Kolben verdrängt wird. Er wird meist in Kubikzentimetern (cm? oder ccm) oder Litern (L) angegeben. Typische Werte können beispielsweise 1.968 cm? (2.0 L) oder 1.598 cm? (1.6 L) sein. Dieser Wert gibt Rückschlüsse auf die Motorgröße und oft auch auf die Leistungsfähigkeit des Fahrzeugs. Suche im Abschnitt zwischen "Tenor" und dem letzten Verweis (meistens ein Permalink)
+9. **Leistung**: Die Leistung eines Fahrzeugs beschreibt die maximale Kraftabgabe des Motors und wird in der Regel in Kilowatt (kW) oder Pferdestärken (PS) angegeben. Beispielsweise könnte eine Angabe lauten: 110 kW (150 PS). Die Leistung ist ein entscheidender Faktor für die Beschleunigung und die Höchstgeschwindigkeit eines Fahrzeugs. 
+10. **Zulassungsklasse**: Die Zulassungsklasse gibt die Abgasnorm eines Fahrzeugs an und bestimmt, welche Emissionsstandards es erfüllt. Typische Angaben in diesem Zusammenhang sind beispielsweise EU5, Euro 6, Euro 6d-TEMP oder Euro 6d. Diese Normen definieren die zulässigen Grenzwerte für Schadstoffemissionen wie Stickoxide (NO?) und Feinstaub. Eine höhere Euro-Norm bedeutet in der Regel eine umweltfreundlichere Abgasreinigung.
+11. **Softwareupdate**: In diesem Punkt wird geprüft, ob im Abschnitt zwischen “Tenor” und dem letzten Verweis (meistens ein Permalink) eine explizite Erwähnung eines installierten Softwareupdates zu finden ist. Solche Updates werden häufig in Verbindung mit Abgasmanipulationen oder Verbesserungen der Motorsteuerung erwähnt. Falls eine entsprechende Aussage wie „Softwareupdate wurde durchgeführt“ oder „Update aufgespielt“ gefunden wird, wird dies als Bestätigung gewertet. Falls keine solche Erwähnung vorhanden ist, wird als Rückgabewert „nein“ ausgegeben.
+Könntest du mir die Ergebnisse in einer JSON-Datei wie dieser zurückgeben. Diese
+soll folgende Struktur haben:' [{"Gerichtstyp": "Bestimmung des Gerichtstyps", "Urteil": "Ergebnis der Bestimmung des Urteils", "Kaufdatum": "Bestimmung des Kaufdatums", "Kaufpreis": "Bestimmung des Kaufpreises", "Marke": "Bestimmung der Marke", "Modell": "Bestimmung des Modells", "Motor": "Bestimmung des Motors", "Hubraum": "Bestimmung des Hubraums", "Leistung": "Bestimmung der Leistung", "Zulassungsklasse": "Bestimmung der Zulassungsklasse", "Softwareupdate": "Bestimmung des Softwareupdates"}]'. 
 
-1. Gerichtstyp:
+Es soll immer nur der Gerichtstyp, das Ergebnis des Urteils, das Kaufdatum ausgegegeben werden. (z.B. Gerichtstyp: OLG, Urteil: 23.522,43 EUR, Kaufdatum: 21.09.2009, Kaufpreis: 16.999,99€, Marke: Audi, Modell: z. B. “Q3 2.0 TDI quattro”, Motor: z. B. “EA189”, Hubraum z. B. “1.968 cm?”, Leistung: z. B. “110 kW (150 PS)”, Zulassungsklasse: z. B. “Euro 6+, Softwareupdate: z. B. “ja” oder “nein”). Und die Tabelle soll nur einen Eintrag haben.
 
-Unterscheide, ob es sich um einen Entscheid eines Oberlandesgerichts (OLG) oder eines Landgerichts (LG) handelt. Dies sollte im Text bei der Urteilsangabe erw√§hnt sein (z. B. OLG, LG). Hier sollen nur die Begriffe OLG und LG extrahiert werden, der Name der Stadt wird nicht ben√∂tigt.
-
-2. Urteil:
-
-√úberpr√ºfe in der Spalte Text, ob im Abschnitt Tenor ein Geldbetrag genannt wird, den der Kl√§ger als Schadensersatz erh√§lt, oder ob die Klage abgewiesen wurde. Dies steht zu Beginn des Abschnitts Tenor und wird vor dem Abschnitt Gr√ºnde festgelegt. Der Betrag wird in der Regel in Euro ohne Zinsen angegeben (z. B. 25.900 EUR) und steht zu Beginn des Abschnitts Tenor. Gebe mir nur den Betrag in Euro aus (z. B. 23542,23 EUR). Falls kein Betrag vorhanden ist und die Klage abgewiesen wurde (hierbei wird im Text vermittelt, dass die Klage des ‚ÄòKl√§gers/-in‚Äô oder der ‚ÄòKlagepartei‚Äô abgelehnt wurde. Auch kann im Text stehen, dass die Berufung der Klagepartei abgewiesen oder zur√ºckgewiesen wurde.), soll dies als Klage abgewiesen angezeigt werden. Achte darauf, dass der Streitwert nicht extrahiert wird. Sollte jedoch in dem Abschnitt Tenor nichts zur Klage des Kl√§gers bzw. der Kl√§gerin stehen, sondern es wird ein anderes Verfahren betrachtet (z. B. ein Ablehnungsgesuch der oder des Beklagten wird verworfen, eine Streitwertfestsetzung betrachtet, eine Gerichtsstandbestimmung erw√§hnt oder abgelehnt oder eine Entscheidung des Senats thematisiert), dann gebe dies als Sonstige aus. Achte dabei darauf, woran du dies festgemacht hast.
-
-Extrahiere zus√§tzlich folgende Variablen aus dem Text und f√ºge diese mit den Ergebnissen zu einer JSON-Datei hinzu:
-
-‚Ä¢ Kaufdatum: Datum, an dem das Fahrzeug gekauft wurde.
-
-‚Ä¢ Kaufpreis: Preis des Fahrzeugs inklusive oder exklusive Nebenkosten in Euro.
-
-‚Ä¢ Zulassungskosten: Kosten f√ºr die Zulassung des Fahrzeugs in Euro.
-
-‚Ä¢ Fahrzeugmodell: Marke und Typ des Fahrzeugs.
-
-‚Ä¢ FIN: Fahrzeug-Identifikationsnummer (anonymisiert).
-
-‚Ä¢ Erstzulassung: Jahr der Erstzulassung des Fahrzeugs.
-
-‚Ä¢ Kilometerstand bei Kauf: Kilometerstand des Fahrzeugs beim Kauf in km.
-
-‚Ä¢ Aktueller Kilometerstand: Aktueller Kilometerstand des Fahrzeugs in km.
-
-‚Ä¢ Gesch√§tzte Gesamtlaufleistung: Erwartete Gesamtlaufleistung des Fahrzeugs in km.
-
-‚Ä¢ Motortyp: Motorbeschreibung (z. B. Typ EA189).
-
-‚Ä¢ Hubraum: Motorgr√∂√üe in Litern.
-
-‚Ä¢ Leistung: Motorleistung in PS.
-
-‚Ä¢ Zulassungsklasse: Schadstoffklasse des Fahrzeugs.
-
-‚Ä¢ Softwareupdates: Datum oder Status des aufgespielten Softwareupdates.
-
-‚Ä¢ NOX-Emission: Beschreibung der Abgassteuerung und NOX-Emissionen.
-
-‚Ä¢ Nutzungsentsch√§digung: Wertverlust des Fahrzeugs basierend auf gefahrenen Kilometern in Euro.
-
-‚Ä¢ Geforderter Schadensersatz: Gesamth√∂he des Schadensersatzes inklusive Zinsen in Euro.
-
-Gebe die Ergebnisse in einer JSON-Datei mit folgender Struktur zur√ºck:
-
-[  
-
-  {  
-
-    "Gerichtstyp": "Bestimmung des Gerichtstyps",  
-
-    "Urteil": "Ergebnis der Bestimmung des Urteils",  
-
-    "Kaufdatum": "Beispielwert",  
-
-    "Kaufpreis": "Beispielwert",  
-
-    "Zulassungskosten": "Beispielwert",  
-
-    "Fahrzeugmodell": "Beispielwert",  
-
-    "FIN": "Beispielwert",  
-
-    "Erstzulassung": "Beispielwert",  
-
-    "Kilometerstand bei Kauf": "Beispielwert",  
-
-    "Aktueller Kilometerstand": "Beispielwert", 
-
-    "Gesch√§tzte Gesamtlaufleistung": "Beispielwert",  
-
-    "Motortyp": "Beispielwert",  
-
-    "Hubraum": "Beispielwert",  
-
-    "Leistung": "Beispielwert",  
-
-    "Zulassungsklasse": "Beispielwert",  
-
-    "Softwareupdates": "Beispielwert",  
-
-    "NOX-Emission": "Beispielwert",  
-
-    "Nutzungsentsch√§digung": "Beispielwert",  
-
-    "Geforderter Schadensersatz": "Beispielwert", 
-
-    "Prozesszinsen": "Beispielwert",  
-
-    "Typgenehmigung": "Beispielwert",  
-
-    "Kl√§gerargumente": "Beispielwert",  
-
-    "Beklagtenargumente": "Beispielwert",  
-
-    "Prozessstatus": "Beispielwert",  
-
-    "Zug-um-Zug-Verpflichtung": "Beispielwert"  
-
-  }  
-
-]
