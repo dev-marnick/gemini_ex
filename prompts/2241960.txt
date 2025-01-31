@@ -1,0 +1,77 @@
+OLG Frankfurt am Main, Beschluss vom 13.08.2018 - 25 U 72/18
+    				
+  			
+			
+
+				
+					Fundstelle
+					openJur 2020, 44611
+					
+                            
+                                Rechtskraft: 
+                            
+                            
+                                
+                                  Optionen
+                                
+                                 Zitierung
+                                   Versionen
+                                
+					
+				
+
+
+			
+			
+			
+			
+				 
+				
+				Tenor
+				Der Senat weist darauf hin, dass er die Verwerfung der Berufung als unzul√§ssig beabsichtigt.Die Berufungskl√§gerseite erh√§lt Gelegenheit zur Stellungnahme bis zum05.09.2018.  
+				Gr√ºnde
+				Der Senat beabsichtigt, die Berufung als unzul√§ssig zu verwerfen, weil die Berufungsbegr√ºndung nicht den gesetzlichen Anforderungen des ¬ß¬†520 ZPO entspricht.Die Berufungsbegr√ºndung, die ersichtlich f√ºr eine Vielzahl akquirierter F√§lle vorbereitet wurde, hat im entscheidenden Punkt keinerlei Fallbezug.An verschiedenen Stellen der Berufungsbegr√ºndung wird damit argumentiert, dass der Kl√§ger als technischer Laie die Manipulation nicht habe erkennen k√∂nnen; der Kl√§ger habe sich aufgrund einer falschen Beschaffenheitsangabe √ºber die Gesetzeskonformit√§t als auch √ºber die Richtigkeit der im Pr√ºfstand im NEFZ zu erzielenden Schadstoffwerte geirrt.Genau das trifft im vorliegenden Fall nicht zu. Der Kl√§ger hatte nach dem ausweislich des landgerichtlichen Urteils unstreitigen Inhalt des Kaufvertrages bei Kaufvertragsabschluss positive Kenntnis davon, dass das Fahrzeug mit einer manipulierten Software ausgestattet ist. Der Kl√§ger selbst hat dies letztlich nicht in Abrede gestellt, sondern im Rahmen der Anh√∂rung am 12.4.2018 selbst angegeben, er habe "Anfang Dezember 2015" Kenntnis davon erlangt, dass das Fahrzeug mit der Schummelsoftware ausgestattet sei. Er bringt das zwar in einen Zusammenhang mit einem Werkstattbesuch, allerdings hat er das Fahrzeug √ºberhaupt erst Anfang Dezember 2015 erworben, und es steht bereits im Kaufvertrag, dass das Fahrzeug mit der manipulierten Software ausgestattet ist. Die Erinnerung des Kl√§gers ist daher zwar insoweit richtig, dass er Anfang Dezember 2015 √ºber die "Schummelsoftware" informiert war, nur der Zusammenhang ist anders. Er hatte die ma√ügebliche Kenntnis bereits bei Kaufvertragsabschluss. Dabei kommt es nicht auf die genaue Kenntnis in allen Details der Wirkungsweise der Software an, sondern auf eine Parallelwertung in der Laiensph√§re, nach der es dem Betroffenen klar war, dass hier ein Fahrzeug mit einer nicht regelkonformen Softwaresteuerung ausgestattet war.Das Landgericht hat auf diesen Punkt tragend abgestellt, die Berufungsbegr√ºndung streift diesen Aspekt nicht einmal.Soweit es auf eine T√§uschung durch die Beklagte ank√§me, w√§re von einer T√§uschungsabsicht f√ºr alle Erwerbstatbest√§nde nach der Ad-hoc-Erkl√§rung vom 22.9.2015 nicht mehr auszugehen. Die Beklagte hat √∂ffentlich erkl√§rt, dass alle Motoren des Typs EA189 mit einer manipulierten Software ausgestattet ist, die nur im Pr√ºfstandmodus besondere Abgasbedingungen schafft. Wer den Tatbestand mit Bestimmung f√ºr die Allgemeinheit offenlegt, aus dem sich die T√§uschung ergeben soll, dem kann nicht vorgehalten werden, er habe fortan weiterhin K√§ufer eines Fahrzeugs mit dem Motor EA189 t√§uschen wollen. Entsprechendes gilt f√ºr den Gedanken eines - unterstellt es gab vor dem 22.9.2015 einen solchen - fortbestehenden Sch√§digungsvorsatzes.Insoweit w√§re - selbst wenn die Berufung zul√§ssig w√§re - sie in jedem Fall (sowohl infolge der Kenntnis des Kl√§gers als auch mangels Vorsatzes der Beklagten nach dem 22.9.2015) unbegr√ºndet, so dass bei zul√§ssiger Berufung sogleich ein Hinweis gem√§√ü ¬ß¬†522 Abs.¬†2 ZPO zu erteilen sein w√ºrde. Der Hinweis erfolgt hiermit bereits vorsorglich f√ºr den Fall, dass der Kl√§gerseite noch eine Darlegung gelingen sollte, aus der sich die Zul√§ssigkeit der Berufung ergeben k√∂nnte.Nur vorsorglich ist schlie√ülich darauf hinzuweisen, dass die Klage mit dem Antrag zu 1. unzul√§ssig ist, weil sie als Leistungsklage ohne vollstreckbaren Inhalt ausgestattet ist. Wer sich einen Abzug anrechnen lassen will, muss diesen im Rahmen des Bestimmtheitserfordernisses des ¬ß¬†253 ZPO beziffern. Selbst soweit man den Abzug von Nutzungsvorteilen unter die Rubrik des unbezifferten Zahlungsantrages (vgl. dazu Greger, in Z√∂ller, ZPO, 32. Aufl.,. ¬ß¬†253, Rn. 14) subsumieren wollte, scheitert der Kl√§ger hier an den auch dann noch erforderlichen Minimalangaben, n√§mlich der Angabe der Sch√§tzungsgrundlagen und der Mitteilung einer Gr√∂√üenordnung.
+			
+			
+			
+			Permalink: https://openjur.de/u/2241960.html (https://oj.is/2241960)
+Lies den Text in der Spalte Text und analysiere folgende Aspekte: 1. **Gerichtstyp**:
+Unterscheide, ob es sich um einen Entscheid eines Oberlandesgerichts (OLG) oder
+eines Landgerichts (LG) handelt. Dies sollte im Text bei der Urteilsangabe erwähnt
+sein (z. B. OLG, LG). Hier sollen nur die Begriffe OLG und LG extrahiert werden, der
+Name der Stadt wird nicht benötigt. 2. **Geldbetrag oder Abweisung**: Überprüfe in
+der Spalte Text, ob im Abschnitt Tenor ein Geldbetrag genannt wird, den der Kläger
+als Schadensersatz erhält, oder ob die Klage abgewiesen wurde. Dies steht zu
+Beginn des Abschnitts Tenor und wird vor dem Abschnitt Gründe festgelegt. Der
+Betrag wird in der Regel in Euro ohne Zinsen angegeben (z. B. 25.900 EUR) und
+steht zu Beginn des Abschnitts Tenor. Gebe mir nur den Betrag in Euro aus (z.B.
+23542,23 EUR). Falls kein Betrag vorhanden ist und die Klage abgewiesen wurde
+(hierbei wird im Text vermittelt, dass die Klage des 'Klägers/-in' oder der 'Klagepartei'
+abgelehnt wurde. Auch kann im Text stehen, dass die Berufung der Klagepartei
+abgewiesen oder zurückgewiesen wurde.), soll dies als Klage abgewiesen angezeigt
+werden. Achte darauf, dass der Streitwert nicht extrahiert wird.
+Sollte jedoch in dem Abschnitt Tenor nichts zu die Klage des Klägers bzw. der
+Klägerin wird abgewiesen oder der Kläger bzw. die Klägerin erhält Anspruch auf
+Schadensersatz stehen, sondern es wird ein anderes Verfahren betrachtet bzw. ein
+Ablehnungsgesuch der oder des Beklagten wird verworfen, es wird eine
+Streitwertfestsetzung betrachtet, es wird eine Gerichtsstandbestimmung erwähnt
+oder abgelehnt oder eine Entscheidung des Senats thematisiert, dann gebe dies als
+Sonstige aus. Achte dabei vor allem darauf, ob im Text Streitwertfestsetzung
+(einschließlich dessen Ablehnung), Ablehnungsgesuch oder Entscheid des Senats
+thematisiert und ausgeführt wird. Dies sind Indizien für die Kategorie 'Sonstige'.
+Handelt es sich um die Kategorie 'Sonstige', dann gib mit an, woran du dies
+festgemacht hast.
+3. **Kaufdatum**: Suche in dem Teil zwischen Tenor und Permalink, wann der Kauf des PKW stattgefunden hat. Ein Datum mit TT.MM.JJJJ , dem Monat ausgeschrieben.JJJJ oder nur das Jahr könnten als dieses Datum in dem Abschnitt Gründe eingetragen sein. Wenn dem nicht so ist, trage NA ein.
+4.**Kaufpreis**: Suche in dem Teil zwischen Tenor und Permalink, zu welchem Preis der Kauf des PKW stattgefunden hat. Suche dafür nach einem Wert, z.B. 16.000,00€. Dieser kann als gebraucht oder neu bezeichnet werden.
+5. **Marke**: Suche im Abschnitt zwischen "Tenor" und dem letzten Verweis (meistens ein Permalink) nach Automarken. Dies können sowohl explizit genannte Marken als auch beschreibende Angaben zu Marken sein. Berücksichtige dabei den Kontext, um Fehlinterpretationen zu vermeiden. Ein Beispiel könnte (VW, Volkswagen, Audi) oder andere sein.
+6. **Modell**: Suche im Abschnitt zwischen "Tenor" und dem letzten Verweis (meistens ein Permalink) nach dem speziellen Modell der Automarke. Dies können sowohl explizit genannte Modelle (Audi Q3 2.0 TDI quattro) als auch beschreibende Angaben zu Marken sein. Berücksichtige dabei den Kontext, um Fehlinterpretationen zu vermeiden.
+7. **Motor**: Suche im Abschnitt zwischen "Tenor" und dem letzten Verweis (meistens ein Permalink) nach dem speziellen Motor des PKW. Dies können sowohl explizit genannte Motorbeschreibung (z. B. Typ EA189) als auch beschreibende Angaben zum Motor sein. Berücksichtige dabei den Kontext, um Fehlinterpretationen zu vermeiden.
+8. **Hubraum**: Der Hubraum eines Fahrzeugs bezeichnet das Gesamtvolumen aller Zylinder des Motors, das während eines vollständigen Arbeitszyklus durch den Kolben verdrängt wird. Er wird meist in Kubikzentimetern (cm? oder ccm) oder Litern (L) angegeben. Typische Werte können beispielsweise 1.968 cm? (2.0 L) oder 1.598 cm? (1.6 L) sein. Dieser Wert gibt Rückschlüsse auf die Motorgröße und oft auch auf die Leistungsfähigkeit des Fahrzeugs. Suche im Abschnitt zwischen "Tenor" und dem letzten Verweis (meistens ein Permalink)
+9. **Leistung**: Die Leistung eines Fahrzeugs beschreibt die maximale Kraftabgabe des Motors und wird in der Regel in Kilowatt (kW) oder Pferdestärken (PS) angegeben. Beispielsweise könnte eine Angabe lauten: 110 kW (150 PS). Die Leistung ist ein entscheidender Faktor für die Beschleunigung und die Höchstgeschwindigkeit eines Fahrzeugs. 
+10. **Zulassungsklasse**: Die Zulassungsklasse gibt die Abgasnorm eines Fahrzeugs an und bestimmt, welche Emissionsstandards es erfüllt. Typische Angaben in diesem Zusammenhang sind beispielsweise EU5, Euro 6, Euro 6d-TEMP oder Euro 6d. Diese Normen definieren die zulässigen Grenzwerte für Schadstoffemissionen wie Stickoxide (NO?) und Feinstaub. Eine höhere Euro-Norm bedeutet in der Regel eine umweltfreundlichere Abgasreinigung.
+11. **Softwareupdate**: In diesem Punkt wird geprüft, ob im Abschnitt zwischen “Tenor” und dem letzten Verweis (meistens ein Permalink) eine explizite Erwähnung eines installierten Softwareupdates zu finden ist. Solche Updates werden häufig in Verbindung mit Abgasmanipulationen oder Verbesserungen der Motorsteuerung erwähnt. Falls eine entsprechende Aussage wie „Softwareupdate wurde durchgeführt“ oder „Update aufgespielt“ gefunden wird, wird dies als Bestätigung gewertet. Falls keine solche Erwähnung vorhanden ist, wird als Rückgabewert „nein“ ausgegeben.
+Könntest du mir die Ergebnisse in einer JSON-Datei wie dieser zurückgeben. Diese
+soll folgende Struktur haben:' [{"Gerichtstyp": "Bestimmung des Gerichtstyps", "Urteil": "Ergebnis der Bestimmung des Urteils", "Kaufdatum": "Bestimmung des Kaufdatums", "Kaufpreis": "Bestimmung des Kaufpreises", "Marke": "Bestimmung der Marke", "Modell": "Bestimmung des Modells", "Motor": "Bestimmung des Motors", "Hubraum": "Bestimmung des Hubraums", "Leistung": "Bestimmung der Leistung", "Zulassungsklasse": "Bestimmung der Zulassungsklasse", "Softwareupdate": "Bestimmung des Softwareupdates"}]'. 
+
+Es soll immer nur der Gerichtstyp, das Ergebnis des Urteils, das Kaufdatum ausgegegeben werden. (z.B. Gerichtstyp: OLG, Urteil: 23.522,43 EUR, Kaufdatum: 21.09.2009, Kaufpreis: 16.999,99€, Marke: Audi, Modell: z. B. “Q3 2.0 TDI quattro”, Motor: z. B. “EA189”, Hubraum z. B. “1.968 cm?”, Leistung: z. B. “110 kW (150 PS)”, Zulassungsklasse: z. B. “Euro 6+, Softwareupdate: z. B. “ja” oder “nein”). Und die Tabelle soll nur einen Eintrag haben.
+
